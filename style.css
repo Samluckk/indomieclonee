@@ -528,7 +528,7 @@ body {
 
 .fourr {
     margin-right: 20px;
-    transition: transform 0.5s ease,background 0.5s ease;
+    transition: transform 0.5s ease, background 0.5s ease;
     border-radius: 15px;
 }
 .fourr:hover{
@@ -633,3 +633,5 @@ body {
     color: rgb(90, 59, 4);
     margin-top: -14px;
 }
+
+/* about */

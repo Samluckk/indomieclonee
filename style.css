@@ -1,0 +1,635 @@
+body {
+    background-image: url(./image/home-bg2.jpeg);
+}
+
+.spoon{
+    position: absolute;
+    right: 10px;
+}
+
+.fa {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-between;
+    gap: 25px;
+    list-style-type: none;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.fa a{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+    
+}
+
+.fa a:hover{
+    color: red;
+    transition: 0.5s;
+}
+
+.logo {
+    margin-right: 150px;
+
+}
+
+.all {
+    margin-right: 80px;
+}
+
+.har {
+    display: flex;
+}
+
+.log {
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.back {
+    margin-left: 60px;
+    border-radius: 40px;
+    height: 440px;
+    
+}
+
+.hunt {
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container .hunt {
+    display: block;
+}
+
+.click {
+    position: absolute;
+    color: white;
+    background-color: red;
+    padding: 15px;
+    margin-top: 150px;
+    border: none;
+    width: -100px;
+    height: 60px;
+    left: 42%;
+    opacity: 1;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    cursor: pointer;    
+}
+
+.image-container:hover .click {
+    opacity: 1;
+}
+
+.container {
+    display: flex;
+}
+
+.text-container {
+    text-align: right;
+    padding-top: 50px;
+    margin-left: 100px;
+}
+
+.dis {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+.indo {
+    margin-top: -10px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 29px;
+    font-weight: 2000px;
+    color: red;
+}
+
+.mie {
+    color:  rgb(103, 103, 103);
+}
+
+.see {
+    border: 1px solid transparent;
+    background-color: rgb(191, 23, 23);
+    color: white;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 15px;
+    height: 30px;
+    margin-top: 12px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.see:hover {
+    color: red;
+    background-color: yellow;
+}
+
+.food {
+    padding-top: -50px;
+    top: 150%;
+    left: 63%;
+    margin-top: 40px;
+}
+
+.sec {
+    margin-left: 90px;
+}
+
+.chicken {
+    background-image: url(./image/productbg1.png);
+    background-size: cover;
+    height: 730px;
+    width: 1263px;
+}
+
+.chick {
+    border-bottom: 4px solid rgb(220, 12, 12);
+}
+.oni {
+    cursor: pointer;
+}
+.square {
+    width: 300px;
+    height: 480px;
+    background-color: rgb(188, 15, 15);
+    margin-left: 190px;
+    margin-top: 0px;
+    border-radius: 40px;
+    position: absolute;
+}
+
+.but a {
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: x-large;
+    font-weight: 1000;
+    color: black;
+}
+
+.butt a {
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: x-large;
+    font-weight: 1000;
+    color: black;
+}
+
+.bu {
+    padding: 80px;
+    margin-left: 110px;
+    display: flex;
+    gap: 39px;
+}
+
+.pic1 {
+    position: absolute;
+    left: 15.5%;
+    top: 320%;
+}
+
+.pic2 {
+    position: absolute;
+    left: 8%;
+    top: 352%;
+}
+
+.pic3 {
+    position: absolute;
+    left: 67%;
+    top: 377%;
+}
+
+.text {
+    position: absolute;
+    left: 43%;
+}
+
+.ted {
+    padding-right: 50px;
+    left: 78%;
+    position: absolute;
+    top: 330%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.ted ul li {
+    list-style: none;
+    text-align: right;
+}
+
+.in a{
+    border-right: 7px solid red;
+    padding-right: 20px;
+    color: red;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bolder;
+}
+
+.stand a{
+    border-right: 1px solid white;
+    padding-right: 10px;
+    margin-top: 13px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.stand{
+    margin-top: 13px;
+}
+
+.su a{
+    border-right: 1px solid white;
+    padding-right: 10px;
+    margin-top: 13px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.su{
+    margin-top: 13px;
+}
+
+.hun a{
+    border-right: 1px solid white;
+    padding-right: 10px;
+    margin-top: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.hun{
+    margin-top: 13px;
+}
+
+.belle a{
+    border-right: 1px solid white;
+    padding-right: 10px;
+    margin-top: 13px;
+    font-size: 16px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.belle {
+    margin-top: 13px;
+}
+
+.re a{
+    border-right: 1px solid white;
+    padding-right: 10px;
+    margin-top: 13px;
+    font-size: 16px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.re{
+    margin-top: 13px;
+}
+
+.red {
+    background-color: rgb(209, 25, 25);
+    height: 650px;
+    width: 1263px;
+}
+
+.wave2 {
+    margin-top: 0px;
+    position: absolute;
+    top: 439%;
+}
+
+.white {
+    border: 10px solid white;
+    background-color: white;
+    width: 1030px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 35px;
+    border-radius: 26px;
+}
+
+.kook {
+    margin-top: -430px;
+    position: absolute;
+    margin-left: 670px;
+}
+
+.indomi {
+    margin-left: 250px;
+    margin-top: 50px;
+    color: rgb(209, 25, 25);
+    font-size: 57px;
+    font-family: font-family: "Bebas Neue", sans-serif;;
+}
+
+.rec {
+    margin-left: 250px;
+    margin-top: -67px;
+    color: rgb(209, 25, 25);
+    font-size: 80px;
+}
+
+.spoonpic {
+    position: absolute;
+    margin-top: -590px;
+    
+}
+
+.you {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 180px;
+    cursor: pointer;
+}
+
+.first {
+    transition: transform 0.5s ease, background 0.5s ease;
+}
+.first:hover{
+    transform: scale(1.1);
+}
+.text1{
+    text-decoration: none;
+    position: absolute;
+    margin-top: -1px;
+    font-size: 12px;
+    color: rgb(103, 103, 103);
+}
+.text1:hover{
+    color: red;
+}
+.second {
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 180px;
+    transition: transform 0.5s ease, background 0.5s ease;
+}
+.second:hover{
+    transform: scale(1.1);
+}
+
+.text2{
+    text-decoration: none;
+    position: absolute;
+    margin-top: -1px;
+    font-size: 12px;
+    color: rgb(103, 103, 103);
+}
+.text2:hover{
+    color: red;
+}
+
+.third {
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 360px;
+    transition: transform 0.5s ease, background 0.5s ease;
+}
+.third:hover{
+    transform: scale(1.1);
+}
+.text3{
+    text-decoration: none;
+    position: absolute;
+    margin-top: -1px;
+    font-size: 12px;
+    color: rgb(103, 103, 103);
+}
+.text3:hover{
+    color: red;
+}
+
+.wave1 {
+    margin-top:70px;
+    position: absolute;
+}
+
+.green {
+    background-color: rgb(6, 172, 83);
+    position: absolute;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 90px;
+    height: 300px;
+    transition: transform 0.5s ease, background 0.5s ease;
+    cursor: pointer;
+}
+.green:hover {
+    transform: scale(1.1);
+}
+
+.bb {
+    background-color: black;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: -90px;
+    position: absolute;
+    border: none;
+    margin-left: 70px;
+    border-radius: 5px;
+    block-size: 35px;
+    
+}
+
+.bb:hover {
+    color: rgb(234, 81, 81);
+    background-color: yellow;
+}
+
+.red2 {
+    
+    background-color: rgb(188, 15, 15);
+    position: absolute;
+    border-radius: 20px;
+    margin-left: 655px;
+    margin-top: 90px;
+    height: 300px;
+    transition: transform 0.5s ease, background 0.5s ease;
+    cursor: pointer;
+}
+.red2:hover{
+    transform: scale(1.1);
+}
+
+.bb2 {
+    background-color: black;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: -90px;
+    position: absolute;
+    border: none;
+    margin-left: 70px;
+    border-radius: 5px;
+    block-size: 35px;
+}
+.bb2:hover {
+    color: rgb(234, 81, 81);
+    background-color: yellow;
+}
+
+.four {
+    margin-top: 450px;
+    margin-left: 75px;
+}
+
+.onee {
+    margin-left: 30px;
+    margin-right: 50px;
+    
+}
+
+.twoo {
+    margin-right: 20px;
+    border-radius: 15px;
+    transition: transform 0.5s ease,background 0.5s ease;
+}
+.twoo:hover{
+    transform: scale(1.1);
+}
+
+.threee {
+    margin-right: 20px;
+    transition: transform 0.5s ease,background 0.5s ease;
+    border-radius: 15px;
+}
+.threee:hover{
+    transform: scale(1.1);
+}
+
+.fourr {
+    margin-right: 20px;
+    transition: transform 0.5s ease,background 0.5s ease;
+    border-radius: 15px;
+}
+.fourr:hover{
+    transform: scale(1.1);
+}
+
+
+.black {
+    height: 420px;
+    position: absolute;
+    width: 1260px;
+    background-color: black;
+    margin-top: 90px;
+    
+}
+
+.texxt {
+    color: #b2720c;
+    display: flex;
+    gap: 35px;
+    margin-left: 350px;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.texxt h1{
+    font-size: 30px;
+}
+.teexxt{
+    margin-top: -13px;
+    color: rgb(153, 88, 3);
+}
+.dufil{
+    color: white;
+    margin-top: 37px;
+}
+.bothh{
+    margin-top: 115px;
+}
+.linkk {
+    text-decoration: none;
+    color: white;
+}
+.linkk:hover{
+    color: rgb(117, 78, 4);
+    transition: 0.5s;
+}
+.linkkk{
+    text-decoration: none;
+    color: white;
+    margin-top: 14px;
+    position: absolute;
+}
+.linkkk:hover{
+    color: rgb(142, 94, 5);
+    transition: 0.5s;
+}
+.bi{
+    color: rgb(103, 103, 103);
+    margin-right: 25px;
+}
+.bi:hover{
+    transition: 0.5s;
+    color: white;
+}
+.bii{
+    margin-top: -13px;
+}
+.biii{
+    color: rgb(142, 94, 5);
+    margin-right: 10px;
+}
+.biii2{
+    color: rgb(142, 94, 5);
+    margin-right: 10px;
+}
+.faa {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+    gap: 25px;
+    margin-top: 50px;
+    margin-left: 410px;
+}
+
+.faa a{
+    text-decoration: none;
+    color: rgb(92, 61, 3);
+    font-size: xx-small;
+}
+
+.faa a:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+
+.right{
+    margin-left: 925px;
+    font-size: xx-small;
+    color: rgb(90, 59, 4);
+    margin-top: -14px;
+}

@@ -1,0 +1,407 @@
+body {
+    background-image: url(./image/home-bg2.jpeg);
+}
+
+.spoon{
+    position: absolute;
+    right: 10px;
+    margin-top: -340px;
+}
+
+.fa {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-between;
+    gap: 25px;
+    list-style-type: none;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.fa a{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+    
+}
+
+.fa a:hover{
+    color: red;
+    transition: 0.5s;
+}
+
+.logo {
+    margin-right: 150px;
+
+}
+
+.all {
+    margin-right: 80px;
+}
+
+.har {
+    display: flex;
+}
+
+.log {
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.back {
+    margin-left: 60px;
+    border-radius: 30px;
+    height: 200px;
+    background-image: cover;
+    
+}
+
+.range{
+    margin-top: -180px;
+    margin-left: 220px;
+    position: absolute;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.ourr{
+    margin-left: 300px;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-underline-offset: 12px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.mother{
+    font-size: 14px;
+}
+.tastee{
+    margin-left: 40px;
+    margin-top: 15px;
+    position: absolute;
+}
+.indre{
+    color: rgb(213, 7, 7);
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 430px;
+}
+.indre h2{
+    font-size: 60px;
+    font-weight: 700;
+}
+.indre h1{
+    font-size: 100px;
+    margin-top: -40px;
+    position: absolute;
+    font-weight: 800;
+}
+.recc{
+    margin-top: -10px;
+    position: absolute;
+    margin-left: 200px;
+}
+.inner{
+    background-image: url(./image/inner-bg-2.jpeg);
+    height: 800px;
+    margin-top: 430px;
+}
+.bg1{
+    background-color: white;
+    position: absolute;
+    height: 280px;
+    border-radius: 10px;
+}
+.bg1:hover{
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+    
+}
+.bg2{
+    background-color: white;
+    position: absolute;
+    height: 280px;
+    margin-left: 290px;
+    border-radius: 10px;
+}
+.bg2:hover{
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+    
+}
+.bg3{
+    background-color: white;
+    position: absolute;
+    height: 280px;
+    margin-left: 578px;
+    border-radius: 10px;
+}
+.bg3:hover{
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+    
+}
+.bg4{
+    background-color: white;
+    position: absolute;
+    height: 280px;
+    margin-top: 310px;
+    border-radius: 10px;
+}
+.bg4:hover{
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+    
+}
+.bg5{
+    background-color: white;
+    position: absolute;
+    height: 280px;
+    margin-left: 290px;
+    margin-top: 310px;
+    border-radius: 10px;
+}
+.bg5:hover{
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+    
+}
+.bg6{
+    background-color: white;
+    position: absolute;
+    height: 280px;
+    margin-left: 578px;
+    margin-top: 310px;
+    border-radius: 10px;
+}
+.bg6:hover{
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+    
+}
+.allim{
+    margin-left: 210px;
+    margin-top: 60px;
+    position: absolute;
+}
+.play1{
+    margin-top: 80px;
+    margin-left: -155px;
+    position: absolute;
+}
+/* .bg1 a img img:hover{
+    transition: 0.5s;
+    color: white;
+} */
+.play2{
+    margin-top: 80px;
+    margin-left: -153px;
+    position: absolute;
+}
+.play3{
+    margin-top: 80px;
+    margin-left: -160px;
+    position: absolute;
+}
+.play4{
+    margin-top: 75px;
+    margin-left: -165px;
+    position: absolute;
+}
+.play5{
+    margin-top: 75px;
+    margin-left: -155px;
+    position: absolute;
+}
+.play6{
+    margin-top: 75px;
+    margin-left: -155px;
+    position: absolute;
+}
+.llink1 p a{
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: -2px;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+}
+
+
+.llink1 p a:hover{
+    color: red;
+}
+
+.llink2 p a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: -2px;
+    position: absolute;
+}
+.llink2 p a:hover{
+    transition: 0.5s;
+    color: red;
+}
+.llink3 p a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: -2px;
+    position: absolute;
+}
+.llink3 p a:hover{
+    transition: 0.5s;
+    color: red;
+}
+.llink4 p a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: -2px;
+    position: absolute;
+}
+.llink4 p a:hover{
+    transition: 0.5s;
+    color: red;
+}
+.llink5 p a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: -2px;
+    position: absolute;
+}
+.llink5 p a:hover{
+    transition: 0.5s;
+    color: red;
+}
+.llink6 p a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: -2px;
+    position: absolute;
+}
+.llink6 p a:hover{
+    transition: 0.5s;
+    color: red;
+}
+.pagg{
+    margin-top: 680px;
+    margin-left: 210px;
+    position: absolute;
+}
+
+
+
+.black {
+    height: 420px;
+    position: absolute;
+    width: 1260px;
+    background-color: black;
+    
+}
+
+.texxt {
+    color: #b2720c;
+    display: flex;
+    gap: 35px;
+    margin-left: 350px;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.texxt h1{
+    font-size: 30px;
+}
+.teexxt{
+    margin-top: 7px;
+    color: rgb(153, 88, 3);
+}
+.dufil{
+    color: white;
+    margin-top: 37px;
+}
+.bothh{
+    margin-top: 115px;
+}
+.linkk {
+    text-decoration: none;
+    color: white;
+}
+.linkk:hover{
+    color: rgb(117, 78, 4);
+    transition: 0.5s;
+}
+.linkkk{
+    text-decoration: none;
+    color: white;
+    margin-top: 14px;
+    position: absolute;
+}
+.linkkk:hover{
+    color: rgb(142, 94, 5);
+    transition: 0.5s;
+}
+.bi{
+    color: rgb(103, 103, 103);
+    margin-right: 25px;
+}
+.bi:hover{
+    transition: 0.5s;
+    color: white;
+}
+.bii{
+    margin-top: 7px;
+}
+.biii{
+    color: rgb(142, 94, 5);
+    margin-right: 10px;
+}
+.biii2{
+    color: rgb(142, 94, 5);
+    margin-right: 10px;
+}
+.faa {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+    gap: 25px;
+    margin-top: 50px;
+    margin-left: 410px;
+}
+
+.faa a{
+    text-decoration: none;
+    color: rgb(92, 61, 3);
+    font-size: xx-small;
+}
+
+.faa a:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+
+.right{
+    margin-left: 925px;
+    font-size: xx-small;
+    color: rgb(90, 59, 4);
+    margin-top: -14px;
+}

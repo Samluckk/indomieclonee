@@ -1,0 +1,266 @@
+body {
+    background-image: url(./image/home-bg2.jpeg);
+}
+
+.spoon{
+    position: absolute;
+    right: 1px;
+    margin-top: -610px;
+}
+
+.fa {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-between;
+    gap: 25px;
+    list-style-type: none;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.fa a{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+    
+}
+
+.fa a:hover{
+    color: red;
+    transition: 0.5s;
+}
+
+.logo {
+    margin-right: 150px;
+
+}
+
+.all {
+    margin-right: 80px;
+}
+
+.har {
+    display: flex;
+}
+
+.log {
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.red {
+    background-color: rgb(209, 25, 25);
+    height: 450px;
+    width: 1120px;
+    border-radius: 35px;
+    margin-left: 60px;
+}
+
+.back {
+    margin-left: 60px;
+    border-radius: 35px;
+    height: 445px;
+    background-image: cover;
+    position: absolute;
+    margin-top: -450px;
+}
+.ab{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-underline-offset: 13px;
+    text-decoration-style: solid;
+}
+.abou{
+    margin-top: -425px;
+    position: absolute;
+    margin-left: 120px;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.nod{
+    border-radius: 25px;
+    position: absolute;
+    margin-top: -296px;
+    margin-left: 405px;
+}
+.yellow{
+    background-image: url(./image/about-bg1.jpeg);
+    background-size: cover;
+    height: 550px;
+    width: 1263px;
+    margin-top: 50px;
+}
+.redd img{
+    height: 450px;
+    width: 530px;
+    border-radius: 30px 0px 0px 30px;
+    margin-left: 80px;
+    position: absolute;
+    margin-top: 50px;
+}
+.white{
+    background-color: white;
+    height: 450px;
+    width: 600px;
+    border-radius: 0 30px 30px 0px;
+    margin-left: 580px;
+    position: absolute;
+    margin-top: 50px;
+}
+.bran{
+    font-family: 'Bebas Neue', sans-serif;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: rgb(198, 7, 7);
+}
+.brand{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-underline-offset: 13px;
+    text-decoration-style: solid;
+}
+.ind{
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(103, 103, 103);
+    margin-top: -40px;
+}
+.reddd{
+    background-image: url(./image/inner-bg-2.jpeg);
+    background-size: cover;
+    height: 540px;
+    width: 1263px;
+}
+.blue{
+    background: linear-gradient(to right, white, rgb(103, 168, 212));
+    height: 450px;
+    width: 1120px;
+    border-radius: 35px;
+    margin-left: 60px;
+    margin-top: 35px;
+    position: absolute;
+}
+.iind{
+    font-family: 'Bebas Neue', sans-serif;
+    margin-left: 40px;
+    margin-top: 30px;
+   
+}
+.iiind{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-underline-offset: 13px;
+    text-decoration-style: solid;
+    color: rgb(193, 12, 12);
+}
+.hou{
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(103, 103, 103);
+}
+
+.theindo{
+    margin-top: -262px;
+    margin-left: 575px;
+}
+
+
+
+.black {
+    height: 420px;
+    position: absolute;
+    width: 1260px;
+    background-color: black;
+    
+}
+
+.texxt {
+    color: #b2720c;
+    display: flex;
+    gap: 35px;
+    margin-left: 350px;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.texxt h1{
+    font-size: 30px;
+}
+.teexxt{
+    margin-top: -13px;
+    color: rgb(153, 88, 3);
+}
+.dufil{
+    color: white;
+    margin-top: 37px;
+}
+.bothh{
+    margin-top: 115px;
+}
+.linkk {
+    text-decoration: none;
+    color: white;
+}
+.linkk:hover{
+    color: rgb(117, 78, 4);
+    transition: 0.5s;
+}
+.linkkk{
+    text-decoration: none;
+    color: white;
+    margin-top: 14px;
+    position: absolute;
+}
+.linkkk:hover{
+    color: rgb(142, 94, 5);
+    transition: 0.5s;
+}
+.bi{
+    color: rgb(103, 103, 103);
+    margin-right: 25px;
+}
+.bi:hover{
+    transition: 0.5s;
+    color: white;
+}
+.bii{
+    margin-top: -13px;
+}
+.biii{
+    color: rgb(142, 94, 5);
+    margin-right: 10px;
+}
+.biii2{
+    color: rgb(142, 94, 5);
+    margin-right: 10px;
+}
+.faa {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+    gap: 25px;
+    margin-top: 50px;
+    margin-left: 410px;
+}
+
+.faa a{
+    text-decoration: none;
+    color: rgb(92, 61, 3);
+    font-size: xx-small;
+}
+
+.faa a:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+
+.right{
+    margin-left: 925px;
+    font-size: xx-small;
+    color: rgb(90, 59, 4);
+    margin-top: -14px;
+}

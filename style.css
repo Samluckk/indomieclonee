@@ -149,7 +149,7 @@ body {
 }
 
 .chicken {
-    background-image: url(./image/productbg1.png);
+    background-image: url(image/productbg1.png);
     background-size: cover;
     height: 730px;
     width: 1263px;

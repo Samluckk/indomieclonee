@@ -1,5 +1,5 @@
 body {
-    background-image: url(./image/home-bg2.jpeg);
+    background-image: url(image/home-bg2.jpeg);
 }
 
 .spoon{
@@ -105,7 +105,7 @@ body {
     margin-left: 200px;
 }
 .inner{
-    background-image: url(./image/inner-bg-2.jpeg);
+    background-image: url(image/inner-bg-2.jpeg);
     height: 800px;
     margin-top: 430px;
 }

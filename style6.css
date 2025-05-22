@@ -1,5 +1,5 @@
 body {
-    background-image: url(./image/home-bg2.jpeg);
+    background-image: url(image/home-bg2.jpeg);
 }
 
 .spoon{
@@ -231,7 +231,7 @@ body {
     transition: 0.5s;
 }
 .yelloww{
-    background-image: url(./image/inner-bg-1.jpeg);
+    background-image: url(image/inner-bg-1.jpeg);
     height: 400px;
     width: 1120px;
     margin-top: 120px;

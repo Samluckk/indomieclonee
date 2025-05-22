@@ -586,7 +586,7 @@ body {
     transition: 0.5s;
 }
 .bi{
-    color: rgb(103, 103, 103);
+    color: white;
     margin-right: 25px;
 }
 .bi:hover{
@@ -595,16 +595,23 @@ body {
 }
 .bii{
     margin-top: -13px;
-    color: rgb(142, 94, 5);
+}
+.bii a{
+    color: white
 }
 .biii{
-    /* color: rgb(142, 94, 5); */
     color: white;
     margin-right: 10px;
 }
-.biii2{
+.biii:hover{
     color: rgb(142, 94, 5);
+}
+.biii2{
+    color: white;
     margin-right: 10px;
+}
+.biii2:hover{
+    color: rgb(142, 94, 5);
 }
 .faa {
     display: flex;
